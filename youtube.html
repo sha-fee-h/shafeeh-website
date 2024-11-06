@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="images/icons/youtube.svg"> <!--favicon-->
+
+    <!--fonts-->    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!--css files-->
+    <link rel="stylesheet" href="styles/video.css" type="text/css" >
+    <link rel="stylesheet" href="styles/general.css" type="text/css">
+    <link rel="stylesheet" href="styles/header.css" type="text/css">
+    <link rel="stylesheet" href="styles/sidebar.css" type="text/css">
+    <link rel="stylesheet" href="styles/scrollcontainer.css" type="text/css">
+    </head>
+    <body>
+        <!--header-->
+        <div class="header">
+            <div class="left-section">
+                <button><img class="hamburger-menu" src="images/icons/hamburger-menu.svg" alt="hamburger-menu"></button>
+                <img title="Youtube Home" class="youtube-logo" src="images/icons/youtube-logo.svg" alt="youtube-logo">
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search" src="images/icons/search.svg" alt="search">
+                </button>
+                <button class="voice-button">
+                    <img class="voice-search" src="images/icons/voice-search-icon.svg" alt="voice search">
+                </button>
+                
+            </div>
+            <div class="right-section">
+                <button><img class="upload" src="images/icons/upload.svg" alt="upload"></button>
+                <div class="notifications">
+                    <button>
+                    <img class="notification-icon" src="images/icons/notifications.svg" alt="notifications">
+                    <div class="notification-badge">5</div>
+                    </button>
+                </div>    
+                <img class="account-profile" src="images/icons/account.jpg" alt="account">
+            </div>
+        </div>
+
+        <!--scroll container-->
+        <div class="scroll-container">
+            <div style="background-color: black;color: white;"><p>All</p></div>
+            <div><p title="Web Development">Web Development</p></div>
+            <div><p title="Computer programming">Computer programming</p></div>
+            <div><p title="Podcasts">Podcasts</p></div>
+            <div><p title="Chandeler Bing">Chandeler Bing</p></div>
+            <div><p title="Laptops">Laptops</p></div>
+            <div><p title="Sports cars">Sports cars</p></div>
+            <div><p title="Psychology">Psychology</p></div>
+            <div><p title="Stocks">Stocks</p></div>
+            <div><p title="AI">AI</p></div>
+            <div><p title="Physics">Physics</p></div>
+            <div><p title="Comedy">Comedy</p></div>
+            <div><p title="Software Engineering">Software Engineering</p></div>
+            <button class="arrow"><img width="20px" src="images/icons/arrow right.svg" alt="arrow right"></button>
+        </div>
+
+        <!--side bar-->
+        <div class="sidebar">
+            <div class="sidebar-icons">
+                <img src="images/icons/home.svg" alt="home">
+                <p>Home</p>
+            </div>
+            <div class="sidebar-icons">
+                <img src="images/icons/shorts.svg" alt="shorts">
+                <p>Shorts</p>
+            </div>
+            <div class="sidebar-icons">
+                <img src="images/icons/subscriptions.svg" alt="subscriptions">
+                <p>Subscriptions</p>
+            </div>
+            <div class="sidebar-icons">
+                <img src="images/icons/you.svg" alt="you">
+                <p>You</p>
+            </div>
+        </div>
+        
+        <!--video section-->
+        <div class="video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnails/thumbnail1.webp" alt="Ballerina (2025) Official Trailer">
+                    <div class="duration">2:25</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture"><img class="profile-picture" src="images/channel pictures/1.jpg" alt="lions gate movies"></div>
+                    <div class="video-info">
+                        <p class="video-title">From the World of John Wick: Ballerina (2025) Official Trailer -...</p>
+                        <p class="video-author">Lionsgate Movies</p>
+                        <img class="verified-badge" src="images/icons/verified badge.png" alt="verified badge">
+                        <p class="video-stats">17M views &#183; 3 weeks ago</p>
+                    </div>
+                    <div class="three-dot"><button class="three-dot-button"><img src="images/icons/3-dot-icon.svg" alt="3-dot-icon"></svg></button></div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnails/thumbnail2.webp" alt="How to create a company">
+                    <div class="duration">4:50</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture"><img class="profile-picture" src="images/channel pictures/2.jpg" alt="Savanteum"></div>
+                    <div class="video-info">
+                        <p class="video-title">How to Create a Company | Elon Musk's 5 Rules</p>
+                        <p class="video-author">Saventeum</p>
+                        <img class="verified-badge" src="images/icons/verified badge.png" alt="verified badge">
+                        <p class="video-stats">4.9 views &#183; 3 years ago</p>
+                    </div>
+                    <div class="three-dot"><button class="three-dot-button"><img src="images/icons/3-dot-icon.svg" alt="3-dot-icon"></button></div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnails/thumbnail3.webp" alt="Blastoff! SpaceX Starship launches on 5th flight">
+                    <div class="duration">10:21</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture"><img class="profile-picture" src="images/channel pictures/3.jpg" alt="video FromSpace"></div>
+                    <div class="video-info">
+                        <p class="video-title">Blastoff! SpaceX Starship launches on 5th flight, nails...</p>
+                        <p class="video-author">VideoFromSpace</p>
+                        <img class="verified-badge" src="images/icons/verified badge.png" alt="verified badge">
+                        <p class="video-stats">1.8M views &#183; 5 days ago</p>
+                    </div>
+                    <div class="three-dot"><button class="three-dot-button"><img src="images/icons/3-dot-icon.svg" alt="3-dot-icon"></button></div>
+                </div>
+            </div> 
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnails/thumbnail4.webp" alt="the king of AI">
+                    <div class="duration">15:03</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture"><img class="profile-picture" src="images/channel pictures/4.jpg" alt="David Ondrej"></div>
+                    <div class="video-info">
+                        <p class="video-title">Sam Altman-the man Who Owns Silicon Valley</p>
+                        <p class="video-author">David Ondrej</p>
+                        <p class="video-stats">1.2M views &#183; 1 year ago</p>
+                    </div>
+                    <div class="three-dot"><button class="three-dot-button"><img src="images/icons/3-dot-icon.svg" alt="3-dot-icon"></div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnails/thumbnail5.webp" alt="Beutiful contemporary flat roofing home design with great...">
+                    <div class="duration">18:12</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture"><img class="profile-picture" src="images/channel pictures/5.jpg" alt="homezonline"></div>
+                    <div class="video-info">
+                        <p class="video-title">Beutiful contemporary flat roofing home design with great...</p>
+                        <p class="video-author">homezonline</p>
+                        <p class="video-stats">3M views &#183; 2 years ago</p>
+                    </div>
+                    <div class="three-dot"><button class="three-dot-button"><img src="images/icons/3-dot-icon.svg" alt="3-dot-icon"></div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnails/thumbnail6.webp" alt="The Cozy Ones for Fall | Friends">
+                    <div class="duration">54:18</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture"><img class="profile-picture" src="images/channel pictures/6.jpg" alt="friends"></div>
+                    <div class="video-info">
+                        <p class="video-title">The Cozy Ones for Fall | Friends</p>
+                        <p class="video-author">Friends</p>
+                        <img class="verified-badge" src="images/icons/verified badge.png" alt="verified badge">
+                        <p class="video-stats">948k views views &#183; 4 weeks ago</p>
+                    </div>
+                    <div class="three-dot"><button class="three-dot-button"><img src="images/icons/3-dot-icon.svg" alt="3-dot-icon"></button></div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnails/thumbnail7.webp" alt="18 Year Old Earns 15 Lakh as a Developer After +2..!">
+                    <div class="duration">48:55</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture"><img class="profile-picture" src="images/channel pictures/7.jpg" alt="Brototype Malayalam"></div>
+                    <div class="video-info">
+                        <p class="video-title">18 Year Old Earns 15 Lakh as a Developer After +2..!</p>
+                        <p class="video-author">Brototype Malayalam</p>
+                        <img class="verified-badge" src="images/icons/verified badge.png" alt="verified badge">
+                        <p class="video-stats">18k views &#183; 20 hours ago</p>
+                    </div>
+                    <div class="three-dot"><button class="three-dot-button"><img src="images/icons/3-dot-icon.svg" alt="3-dot-icon"></button></div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnails/thumbnail8.webp" alt="Mindset of Suucessful Programmers">
+                    <div class="duration">4:56</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture"><img class="profile-picture" src="images/channel pictures/8.jpg" alt="bigboxSWE"></div>
+                    <div class="video-info">
+                        <p class="video-title">Mindset of Successful Programmers</p>
+                        <p class="video-author">bigboxSWE</p>
+                        <img class="verified-badge" src="images/icons/verified badge.png" alt="verified badge">
+                        <p class="video-stats">1.1M views &#183; 1 year ago</p>
+                    </div>
+                    <div class="three-dot"><button class="three-dot-button"><img src="images/icons/3-dot-icon.svg" alt="3-dot-icon"></button></div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnails/thumbnail9.webp" alt="Range Rover">
+                    <div class="duration">17:26</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture"><img class="profile-picture" src="images/channel pictures/9.jpg" alt="Land Rover"></div>
+                    <div class="video-info">
+                        <p class="video-title">Range Rover | The Definition of Luxury Travel</p>
+                        <p class="video-author">Land Rover</p>
+                        <img class="verified-badge" src="images/icons/verified badge.png" alt="verified badge">
+                        <p class="video-stats">5.5M views &#183; 2 years ago</p>
+                    </div>
+                    <div class="three-dot"><button class="three-dot-button"><img src="images/icons/3-dot-icon.svg" alt="3-dot-icon"></div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnails/thumbnail10.webp" alt="Why You Should not Startup In Your 20s">
+                    <div class="duration">21:05</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture"><img class="profile-picture" src="images/channel pictures/10.jpg" alt="Full Disclosure"></div>
+                    <div class="video-info">
+                        <p class="video-title">Why You Should Not Startup In Your 20s | Startup Founder...</p>
+                        <p class="video-author">Full Disclosure</p>
+                        <p class="video-stats">203k views &#183; 7 days ago</p>
+                    </div>
+                    <div class="three-dot"><button class="three-dot-button"><img src="images/icons/3-dot-icon.svg" alt="3-dot-icon"></button></div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnails/thumbnail11.webp" alt="Lengend roast">
+                    <div class="duration">12:10</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture"><img class="profile-picture" src="images/channel pictures/11.jpg" alt="Filmyshek"></div>
+                    <div class="video-info">
+                        <p class="video-title">Lengend roast | filmyshek roast</p>
+                        <p class="video-author">Filmyshek</p>
+                        <p class="video-stats">177k views &#183; 13 days ago</p>
+                    </div>
+                    <div class="three-dot"><button class="three-dot-button"><img src="images/icons/3-dot-icon.svg" alt="3-dot-icon"></button></div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnails/thumbnail12.webp" alt="Algorithms">
+                    <div class="duration">25:47</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture"><img class="profile-picture" src="images/channel pictures/12.jpg" alt="Filmyshek"></div>
+                    <div class="video-info">
+                        <p class="video-title">Harvard Professor Explains Algorithms in 5 Levels of Difficulty | WIRED</p>
+                        <p class="video-author">WIRED</p>
+                        <img class="verified-badge" src="images/icons/verified badge.png" alt="verified badge">
+                        <p class="video-stats">3M views &#183; 11 months ago</p>
+                    </div>
+                    <div class="three-dot"><button class="three-dot-button"><img src="images/icons/3-dot-icon.svg" alt="3-dot-icon"></button></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+.scroll-container{
+    position: fixed;
+    top: 56px;
+    right: 0;
+    left: 70px;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: row;
+    z-index: 100;
+    background-color: white;
+}
+.scroll-container div{
+padding: 8px 12px;
+background-color:rgba(0,0,0,0.05);
+margin: 12px 12px 12px 0;
+border-radius: 5px;
+white-space: nowrap;
+cursor: pointer;
+}
+.scroll-container div p{
+    font-weight: 500;
+    font-size: 14px;
+}
+.arrow{
+    position:absolute;
+    top: 12px;
+    right: 11px;
+    border: none;
+    background-color: white;
+    width: 40px;
+    border-radius:20px ;
+    padding: 5px;
+}
+.arrow:hover{
+    background-color: rgba(0,0,0,0.05);
+}
